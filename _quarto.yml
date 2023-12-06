@@ -4,18 +4,24 @@ project:
   
 
 website:
-  title: "example-site-2023"
+  title: "Hello World"
   navbar:
-    right:
+    left:
       - about.qmd
+      - publications.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/jmbuhr
 format:
   html:
-    theme: cosmo
+    mainfont: Roboto
+    theme:
+      light:
+        - cosmo
+        - custom.scss
+      dark:
+        - darkly
     css: styles.css
 
 
+bibliography: references.bib
 

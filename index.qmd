@@ -3,12 +3,25 @@ title: "example-site-2023"
 listing:
   contents: posts
   sort: "date desc"
-  type: default
+  type: grid
   categories: true
   sort-ui: false
   filter-ui: false
 page-layout: full
 title-block-banner: true
 ---
+
+## Markdown header
+
+<html>
+  <body>
+    <h2>Html header</h2>
+  </body>
+  <style>
+    h2 {
+      color: red;
+    }
+  </style>
+</html>
 
 

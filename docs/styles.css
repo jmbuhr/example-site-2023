@@ -1,1 +1,6 @@
 /* css styles */
+
+#title-block-header > div.quarto-title > h1 {
+  color: #7b00ff;
+}
+
